@@ -1,0 +1,21 @@
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      - static_volume:/app/dist
+ 
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: nginx.Dockerfile
+    restart: always
+    ports:
+      - 127.0.0.1:8000:80
+    depends_on:
+      - web
+    volumes:
+      - static_volume:/app/dist
+
+volumes:
+  static_volume:

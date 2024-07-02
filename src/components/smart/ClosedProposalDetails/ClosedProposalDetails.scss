@@ -1,0 +1,92 @@
+@import '../../../styles/mixins';
+
+.closed-details-wrapper {
+  width: 100%;
+  @include mobile {
+    width: 100%;
+  }
+  .details-heading-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(var(--dark), 1);
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  .details-box {
+    border: 1px solid rgba(var(--light), 1);
+    border-radius: 0.375rem;
+    .uper-section {
+      padding: 1rem;
+      justify-content: space-evenly;
+      align-items: stretch;
+      flex-direction: row;
+      display: flex;
+      .inner-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 6px;
+        .p-unset {
+          position: unset !important;
+        }
+        .title {
+          color: rgba(var(--dark), 0.6);
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          font-family: 'HK Grotesk';
+        }
+        .content {
+          font-size: 0.875rem;
+          font-weight: 400;
+          font-style: normal;
+          color: rgba(var(--dark), 0.95);
+          font-family: 'HK Grotesk';
+        }
+      }
+      .center-border {
+        background-color: rgba(var(--light), 1);
+        width: 1px;
+      }
+    }
+    .lower-section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      border-top: 1px solid rgba(var(--light), 1);
+      padding: 16px 24px;
+      .d-f {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      .chain-icon {
+        margin-top: -2px;
+        margin-right: 4px;
+      }
+      .proposer {
+        color: rgba(var(--dark), 0.6);
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        font-family: 'HK Grotesk';
+      }
+      .link {
+        font-size: 0.875rem;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(var(--dark), 0.95);
+        font-family: 'HK Grotesk';
+      }
+    }
+  }
+  .yes-label {
+    color: rgba(var(--valid), 1) !important;
+  }
+  .no-label {
+    color: rgba(var(--error), 1) !important;
+  }
+  .abstain-label {
+    color: rgba(var(--dark), 0.8) !important;
+  }
+}

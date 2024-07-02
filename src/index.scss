@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'HK Grotesk';
+  src: local('HK Grotesk'), url(./fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'IBM Plex Mono';
+  src: local('IBM Plex Mono'), url(./fonts/IBMPlexMono-Regular.ttf) format('truetype');
+}
+/* @font-face {
+  font-family: 'NoirPro-Medium';
+  src: local('NoirPro-Regular'),
+    url(./fonts/NoirPro-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NoirPro-Light';
+  src: local('NoirPro-Light'), url(./fonts/NoirPro-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'NoirPro-Bold';
+  src: local('NoirPro-Bold'), url(./fonts/NoirPro-Bold.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'studiofeixen';
+  src: url('https://fonts.withoutdoing.com/StudioFeixenSansEdgy-Bold.eot');
+  src: url('https://font.withoutdoing.com/StudioFeixenSansEdgy-Bold.eot')
+      format('embedded-opentype'),
+    url('https://fonts.withoutdoing.com/StudioFeixenSansEdgy-Bold.woff2')
+      format('woff2'),
+    url('https://fonts.withoutdoing.com/StudioFeixenSansEdgy-Bold')
+      format('woff'),
+    url('https://fonts.withoutdoing.com/StudioFeixenSansEdgy-Bold.ttf')
+      format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'HK Grotesk';
+  box-sizing: border-box;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+  --white: 17, 18, 19;
+  --new-white: 255, 255, 255;
+  --light: 25, 29, 31;
+  --dark: 148, 150, 183;
+  --new-dark: 36, 38, 40;
+  --new-light: 243, 246, 248;
+  --black: 255, 255, 255;
+  --error: 199, 62, 89;
+  --valid: 57, 166, 153;
+  --brand: 95, 94, 255;
+  --active: 77, 76, 185;
+  --accent: 253, 67, 107;
+  --very-light: 9, 13, 16;
+  --component-modal: rgba(var(--black), 1);
+  --component-dropdown: #1d1e1f;
+  --component-widget: rgba(var(--new-dark), 0.2);
+  --component-badge-primary: rgba(var(--light), 0.25);
+  --border-secondary: rgba(var(--new-light), 0.05);
+  --icon-secondary: rgba(var(--new-light), 0.6);
+  --text-body: rgba(var(--new-light), 0.95);
+  --text-tertiary: rgba(var(--new-light), 0.5);
+  --text-primary: rgba(var(--new-white), 1);
+  --text-secondary: rgba(var(--new-light), 0.7);
+}
+.modalOverlay {
+  background: rgba(7, 10, 19, 0.8) !important;
+}
+.modalContent {
+  background: #1b1b1b !important;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 50%) !important;
+}
+.modalHeader {
+  color: #ebebeb !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+.wallet {
+  background-color: #d8379a !important;
+  border-radius: 8px !important;
+  box-shadow: unset !important;
+}
+.walletName {
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  color: #1b1b1b !important;
+}
+.walletDescription {
+  color: rgb(23, 23, 23) !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  // background: #f1f1f1;
+  background: rgb(23, 23, 23,1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ant-select-arrow {
+  svg {
+    color: #f1f1f1;
+  }
+}
+.pointer{
+  cursor: pointer;
+}
+.select-placeholder {
+  color: #f1f1f1 !important;
+}
+.hide-toolbar {
+  display: none !important;
+}
+.editor {
+  border-radius: 10px !important;
+  border: 1px solid rgba(var(--dark), 0.15);
+  margin-top: 12px;
+  max-height: 100px;
+  overflow-y: scroll;
+  padding: 6px;
+  span{
+    color: #fff !important;
+  }
+}
+pre 
+{
+display: inline;
+}

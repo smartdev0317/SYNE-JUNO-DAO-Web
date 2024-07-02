@@ -1,0 +1,27 @@
+{
+  "juno-1": {
+    "proposal": "juno1hn99sl2u6ugyaqvuauq0n4uk6lks8r6e3v5gvna8wptws5usa38s0qa9eq",
+    "staking": "juno1rl77a4jpwf5rzmk9d6krrjekukty0m207h0sky97ls7zwq06htdqq6eq7r",
+    "syne_addr": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup"
+  },
+  "uni-6": {
+    "proposal": "juno1p5fz6mprc040d7jd2ks3zlwjuw7cc7vgk8cdmlq2dwe34mgt8xeqxpst5m",
+    "staking": "juno1cla40wz2ldwaczvgt98e2ey0f3kqy4ua4tk5pg6s780q7zz7nt7szet90h",
+    "syne_addr": "juno10l5w7xk8j9v8xayw507eg934hxnzf6ucs9lk58l3qd2hn0gnaucsv5p677"
+  }  
+}
+
+
+
+{
+  "juno-1": {
+    "proposal": "juno1ehphafjrtyyy4vzvndezhwpq33cfqm5yve0p64aceylad4hwjr7q4te9j6",
+    "staking": "juno1v8s7d4m0fy24r09leama584lthufe098pzhdlfca8srpztrujvzqs592yn",
+    "syne_addr": "juno1q0xfgjyptqzf9gjmg8ylg83ffzv2ngrufsghfcxztc2q2vztgp9skp3033"
+  },
+  "uni-6": {
+    "proposal": "juno1p5fz6mprc040d7jd2ks3zlwjuw7cc7vgk8cdmlq2dwe34mgt8xeqxpst5m",
+    "staking": "juno1cla40wz2ldwaczvgt98e2ey0f3kqy4ua4tk5pg6s780q7zz7nt7szet90h",
+    "syne_addr": "juno10l5w7xk8j9v8xayw507eg934hxnzf6ucs9lk58l3qd2hn0gnaucsv5p677"
+  }  
+}

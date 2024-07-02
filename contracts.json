@@ -1,0 +1,12 @@
+{
+  "juno-1": {
+    "proposal": "juno1342eluf20ne7refty2qn0qjge60nj7zk4sxtqrm8mrkh7wntrjcslgkqha",
+    "staking": "juno1prk0nlfg0fm3mtyzc9cn5uzkfnrkwk5uw3y2tujd8cpaa7l5u3tsuynyfg",
+    "syne_addr": "juno1q2qh0h725lr44vhnnw8y3r26vmr9r8sukrw958kyzn0vncatlp9s3gkaed"
+  },
+  "uni-6": {
+    "proposal": "juno1p5fz6mprc040d7jd2ks3zlwjuw7cc7vgk8cdmlq2dwe34mgt8xeqxpst5m",
+    "staking": "juno1cla40wz2ldwaczvgt98e2ey0f3kqy4ua4tk5pg6s780q7zz7nt7szet90h",
+    "syne_addr": "juno10l5w7xk8j9v8xayw507eg934hxnzf6ucs9lk58l3qd2hn0gnaucsv5p677"
+  }  
+}

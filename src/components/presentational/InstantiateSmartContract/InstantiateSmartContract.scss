@@ -1,0 +1,91 @@
+.instantiate-smart-contract-action {
+  .headingWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    h2 {
+      font-style: normal;
+      line-height: 20px;
+      color: rgba(var(--dark), 0.95);
+    }
+  }
+
+  .text-size {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .show-funds {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    label {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 16px;
+      color: rgba(var(--dark), 0.6);
+    }
+  }
+  .token-input {
+    label {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: rgba(var(--dark), 0.6);
+    }
+    .text-white {
+      font-size: 0.875rem;
+      color: #fff;
+    }
+  }
+  .error {
+    color: rgba(var(--error), 1);
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .fund-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .addFunds {
+    background-color: rgba(var(--dark), 0.05);
+    border-radius: 0.37rem;
+    padding: 10px 16px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: max-content;
+    margin-top: 8px;
+    color: #fff;
+
+  }
+  .fund-input {
+    background-color: transparent;
+    border-color: rgba(var(--dark), 0.15);
+  }
+  .contract-info {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    .code-id {
+      width: 30%;
+    }
+    .contract-label {
+      width: 65%;
+    }
+  }
+  .fund-dropdown {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 12px;
+  }
+}

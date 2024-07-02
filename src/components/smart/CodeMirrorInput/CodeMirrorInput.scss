@@ -1,0 +1,14 @@
+.rounded {
+  .CodeMirror {
+    background-color: #0f111a;
+    color: #8f93a2;
+    height: auto !important;
+    border-radius: 6px;
+  }
+  .CodeMirror-cursor{
+    border-left: 1px solid yellow !important;
+  }
+  .CodeMirror-scroll {
+    margin-left: -1px;
+  }
+}

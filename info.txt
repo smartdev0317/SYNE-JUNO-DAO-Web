@@ -1,0 +1,18 @@
+SYNE
+juno1q0xfgjyptqzf9gjmg8ylg83ffzv2ngrufsghfcxztc2q2vztgp9skp3033
+veSYNE
+juno1v8s7d4m0fy24r09leama584lthufe098pzhdlfca8srpztrujvzqs592yn
+proposal
+juno1ehphafjrtyyy4vzvndezhwpq33cfqm5yve0p64aceylad4hwjr7q4te9j6
+
+
+
+
+{
+    "sender": "juno18y3k60d599uym8g3zrnph66vdxl8hhvvkfq75f",
+    "contract": "juno1qsrercqegvs4ye0yqg93knv73ye5dc3prqwd6jcdcuj8ggp6w0us66deup",
+    "msg": "eyJzZW5kIjp7ImNvbnRyYWN0IjoianVubzFybDc3YTRqcHdmNXJ6bWs5ZDZrcnJqZWt1a3R5MG0yMDdoMHNreTk3bHM3endxMDZodGRxcTZlcTdyIiwiYW1vdW50IjoiMTIwODQwNjE1IiwibXNnIjoiZXlKemRHRnJaU0k2ZXlKa2RYSmhkR2x2YmlJNk0zMTkifX0=",
+    "funds": []
+}
+
+{"send":{"contract":"juno1v8s7d4m0fy24r09leama584lthufe098pzhdlfca8srpztrujvzqs592yn","amount":"1000000000","msg":"eyJzdGFrZSI6eyJkdXJhdGlvbiI6MTJ9fQ=="}

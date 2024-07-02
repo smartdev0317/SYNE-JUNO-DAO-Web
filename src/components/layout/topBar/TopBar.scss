@@ -1,0 +1,37 @@
+@import '../../../styles/variables';
+
+.site-layout-background {
+  display: flex;
+  padding: 0px 10px !important;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  .toggleWrapper {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-in;
+    &:hover {
+      span {
+        color: #fff !important;
+      }
+    }
+
+    span {
+      color: #019ff8;
+      margin-right: 0px !important;
+    }
+  }
+  .anticon {
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

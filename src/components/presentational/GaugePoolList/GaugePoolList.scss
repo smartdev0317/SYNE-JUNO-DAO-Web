@@ -1,0 +1,28 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.gauge-pool-list {
+  border: 1px solid #fff;
+  border-radius: 6px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .pool-chart{
+    width: 40%;
+  }
+  .pool-list-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    width: 55%;
+    h1{
+        color: #fff;
+    }
+    .pool-item {
+      color: #fff;
+    }
+  }
+}

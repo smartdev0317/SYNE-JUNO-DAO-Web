@@ -1,0 +1,43 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+
+.token-prices {
+  display: none;
+  justify-content: center;
+  margin: auto 0.4rem;
+  // @media {
+  //   absolute top:0 left:0 w-full h-full items-center justify-center hidden lg:flex
+  // }
+  @media (min-width: 1024px) {
+    display: flex;
+  }
+  .token-price {
+    display: flex;
+    background: #252747;
+    border-radius: 20px;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    gap: 8px;
+    padding: 3px 10px;
+    margin: auto 0.5rem;
+    Img {
+      width: 20px;
+    }
+    p {
+      font-family: 'IBM Plex Mono';
+    }
+  }
+}
+.mobile-version {
+  display: flex;
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+@include mobile {
+}

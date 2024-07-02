@@ -1,0 +1,76 @@
+.actionModal {
+  .ant-modal-content {
+    background-color: rgba(var(--white), 1) !important;
+    border: 1px solid rgba(var(--dark), 0.25);
+    max-height: 96vh !important;
+    max-width: 28rem;
+    overflow-y: auto;
+  }
+  .ant-modal-close-icon {
+    color: #fff;
+  }
+  .searchInput {
+    background: unset !important;
+    border: unset !important;
+    border-bottom: 1px solid rgba(var(--dark), 0.15) !important;
+    margin-top: 16px;
+    padding: 12px;
+  }
+  .ant-input {
+    background: unset !important;
+    color: #fff !important;
+    margin-left: 12px;
+  }
+  .ant-input-affix-wrapper {
+    background: transparent !important;
+    border-radius: unset !important;
+    border-color: rgba(var(--dark), 0.15);
+    color: #fff !important;
+  }
+  ::-webkit-input-placeholder,
+  .ant-select-selection-placeholder {
+    color: #808690 !important;
+    padding-left: 8px !important;
+  }
+  .anticon {
+    color: #808690 !important;
+  }
+}
+.proposalAction {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+  padding: 8px;
+  border-radius: 10px;
+  &:hover {
+    background-color: rgba(var(--dark), 0.05);
+    cursor: pointer;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 6px;
+  }
+  .emoji {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .secondary-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(var(--dark), 0.75);
+  }
+  .primary-text {
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(var(--dark), 0.95);
+  }
+}

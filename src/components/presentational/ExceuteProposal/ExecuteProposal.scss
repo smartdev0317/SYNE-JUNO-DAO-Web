@@ -1,0 +1,70 @@
+@import '../../../styles/mixins';
+
+.exceute-proposal-page-wrapper {
+  margin-top: 24px;
+  .heading-status {
+    font-family: 'HK Grotesk';
+    margin-top: 2.25rem;
+    margin-bottom: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(var(--dark), 0.6);
+  }
+  .exceute-proposal-wrapper {
+    width: 100%;
+    padding: 1rem;
+    background-color: rgba(var(--dark), 0.05);
+    border-color: rgba(var(--dark), 0.15);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    max-width: 48rem;
+    display: flex;
+    @include mobile {
+      width: 100%;
+    }
+    .inner-center {
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      display: flex;
+      .title {
+        font-style: normal;
+        color: rgba(var(--dark), 0.95);
+        font-weight: 500;
+        font-size: 15px;
+        text-transform: capitalize;
+        .emoji-span {
+          margin-right: 8px;
+        }
+      }
+      .exceute-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 24px;
+        gap: 8px;
+        background: #1C88F2;
+        color: #FFFFFF;
+        border: 1px solid #1C88F2;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'HK Grotesk';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .connect-btn {
+        width: 200px;
+        margin-bottom: 8px;
+      }
+      .disabled {
+        background-color: rgba(var(--dark), 0.3);
+        opacity: 0.9;
+        cursor: not-allowed;
+      }
+    }
+  }
+}

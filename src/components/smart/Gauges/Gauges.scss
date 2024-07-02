@@ -1,0 +1,19 @@
+@import '../../../styles/mixins';
+@import '../../../styles/variables';
+
+.gauges{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 40px 30px;
+    .pool-list-section{
+        width: 60%;
+    }
+    .pool-detail-section{
+      width: 35%;
+    }
+}
+.min-he {
+  min-height: 100vh;
+}

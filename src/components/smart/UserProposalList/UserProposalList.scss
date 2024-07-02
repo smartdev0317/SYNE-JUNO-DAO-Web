@@ -1,0 +1,19 @@
+.user-proposal-wrap {
+  margin-top: 0.5rem;
+  .your-dao {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(var(--dark), 0.6);
+    margin-bottom: 0.5rem;
+  }
+  .create {
+    color: rgba(var(--dark), 0.95);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    padding-left: 8px;
+  }
+}
